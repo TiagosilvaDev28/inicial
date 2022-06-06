@@ -3,7 +3,15 @@
   <head>
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="responsive.css"
+      media="screen and (max-width: 768px)"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="print.css" media="print" />
   </head>
   <body>
     <header>
@@ -54,10 +62,17 @@
     </section>
 
     <main>
+
+      <!--<picture class="image" alt="Imagem">
+        <source media="(min-width: 768px)" srcset="https://i.ytimg.com/vi/GykTLqODQuU/maxresdefault.jpg">
+        <source media="(min-width: 320px)" srcset="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg">
+        <source media="(min-width: 10px)" srcset="https://i.ytimg.com/vi/GykTLqODQuU/mqdefault.jpg">
+        <img src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg" alt="Imagem" />
+      -->
       <section class="cards">
         <div class="card">
           <div class="image">
-            <img src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg" />
+            <img src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg" alt="Imagem" />
           </div>
           <div class="content">
             <p class="title text--medium">

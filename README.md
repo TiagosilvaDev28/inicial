@@ -20,3 +20,21 @@ Textos Fixos
 Textos Fluidos
 `em`- mutiplicados pelo pai
 `rem`- mutiplicado pelo root
+
+## CSS Media Queries
+
+```CSS
+
+@media (max-width: 320px) {
+  #form h3 {
+    font-size: 2rem;
+  }
+}
+```
+## HTML Media Attrib.
+
+## Imagens
+
+`<picture>`
+
+JPG, PNG vs SVG
